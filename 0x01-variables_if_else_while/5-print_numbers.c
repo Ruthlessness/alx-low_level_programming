@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-	int b = 0;
+	char b = '0';
 
 	while
-		(b <= 10)
+		(b <= '9')
 		{
 			putchar(b);
 			b++;
